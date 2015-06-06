@@ -26,8 +26,8 @@ app.use(partials());
 //app.use(bullshit());
 
 app.use('/', routes);
-app.use('/users', users);
-
+app.use('/testimonials', routes);
+app.use('/about', routes);
 
 
 // catch 404 and forward to error handler

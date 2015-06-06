@@ -5,3 +5,22 @@
   display: flex;
   align-items: center;
 }
+
+body {
+	background-color:LightCyan;
+}
+
+.roundpic {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+	    text-align: center;
+	vertical-align: bottom;
+}

@@ -9,20 +9,13 @@ function output(array1, array2, array3, array4) {
 	});
 }
 
-
-/*
-router.get('/', function(req, res, next) {
-  res.render('index',{title:'Express',name: 'Paul'});
+router.get('/testimonials', function(req, res, next) {
+	res.render('testimonials');
 });
 
-
-
-router.get('/cat', function(req,res, next) {
-	var name = req.param('name','Mr. Cat');
-	res.render('cat', {name: name});	
-//	res.render('cat');
+router.get('/about', function(req, res, next) {
+	res.render('about');
 });
-*/
 
 bullshit(output);
 
